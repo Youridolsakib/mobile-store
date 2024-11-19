@@ -1,0 +1,368 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    background: url("star.jpeg");
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container1{
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    background: url("store.jpeg");
+    
+}
+@media (max-width: 760px) {
+    header {
+        background: url("store.jpeg");
+        background-position: top;
+        height: 150px; 
+    }
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-right: 20px;
+    font-weight: bolder;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    transition: transform 0.3s;
+    
+}
+nav ul li:hover{
+    transform: translateY(2px);
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color: whitesmoke;
+    transition: transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5e3a;
+ 
+}
+
+.main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+#h2{
+    color: #f0f0f0;
+}
+
+.phone {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin:20px 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.phone img {
+    max-width: 100%;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; 
+}
+
+.phone:hover img {
+    transform: translateY(-8px); 
+}
+
+.phone h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.phone p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.phone a {
+    display: inline-block;
+    background-color: #ff5e3a;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.phone a:hover {
+    background-color: #333;
+}
+
+/* Container2 */
+.container2{
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    height: 150px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: #ff5e3a;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.phone {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.phone img {
+    max-width: 100%;
+    height:400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.phone p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.phone a {
+    display: inline-block;
+    background-color: #ff5e3a;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.phone a:hover {
+    background-color: #333;
+}
+
+
+section#brands {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section#brands h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+section#brands ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#brands ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #666;
+    transition: all 0.3s ease;
+}
+#brands ul li:hover{
+    color: #ff5e3a;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .abt {
+    flex: 1;
+    max-width: 400px; 
+    text-align: left; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer .contact {
+    flex: 1; 
+    max-width: 400px;
+    text-align: left;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    flex-basis: 100%;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+footer nav ul li {
+    margin: 0 10px;
+    display: flex;
+    
+   
+}
+
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #ff5e3a;
+}
+@media (max-width: 760px) {
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-con {
+        flex-direction: column;
+    }
+
+    .phone {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .abt, footer .contact {
+        text-align: center;
+        margin: 0;
+    }
+}
